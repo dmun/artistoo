@@ -56,7 +56,7 @@ let config = {
 	simsettings: {
 
 		// Cells on the grid
-		NRCELLS: [1, 1],					// Number of cells to seed for all
+		NRCELLS: [0, 0],					// Number of cells to seed for all
 		// non-background cellkinds.
 
 		// Runtime etc
@@ -65,9 +65,9 @@ let config = {
 		RUNTIME_BROWSER: 20000,
 
 		// Visualization
-		CANVASCOLOR: "eaecef",
-		CELLCOLOR: ["000000", "FF0000"],
-		ACTCOLOR: [true, false],			// Should pixel activity values be displayed?
+		CANVASCOLOR: "CCCCCC",
+		CELLCOLOR: ["777777", "FFFFFF"],
+		ACTCOLOR: [true, true],			// Should pixel activity values be displayed?
 		SHOWBORDERS: [true, true],				// Should cellborders be displayed?
 		zoom: 2,							// zoom in on canvas with this factor.
 
@@ -120,7 +120,7 @@ function initializeGrid() {
 
 	let width = config.field_size[0]
 	let height = config.field_size[1]
-	let xCells = 5, yCells = 5
+	let xCells = 10, yCells = 10
 
 	for (let xi = 0; xi < xCells; xi++) {
 		for (let yi = 0; yi < yCells; yi++) {
