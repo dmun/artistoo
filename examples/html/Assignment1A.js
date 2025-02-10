@@ -30,9 +30,9 @@ let config = {
 
 		// Adhesion parameters:
 		J: [
-			[NaN, 12, 6],
-			[12, 6, 16],
-			[6, 16, 0],
+			[NaN, 0, 20],
+			[0,   0, 20],
+			[0,   0, 0 ],
 		],
 
 		// VolumeConstraint parameters
